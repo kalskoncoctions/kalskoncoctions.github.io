@@ -1,5 +1,3 @@
-# kalskoncoctions.github.io
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -21,6 +19,8 @@
     }
     .container {
       padding: 20px;
+      max-width: 1000px;
+      margin: auto;
     }
     h2 {
       border-bottom: 2px solid #ff6600;
@@ -33,7 +33,7 @@
       margin: 15px 0;
       display: flex;
       gap: 15px;
-      align-items: center;
+      align-items: flex-start;
     }
     .card img {
       width: 120px;
@@ -49,6 +49,12 @@
     }
     .card a:hover {
       text-decoration: underline;
+    }
+    .ingredients {
+      font-size: 0.85em;
+      color: #ccc;
+      margin-top: 8px;
+      line-height: 1.4em;
     }
     footer {
       text-align: center;
@@ -73,127 +79,141 @@
     <img src="https://via.placeholder.com/120" alt="Pepper Potpurri">
     <div>
       <h3>Pepper Potpurri</h3>
-      <a href="#">View Product</a>
-      <p>Loaded with herbs, peppers, citrus, and smoky spice.</p>
+      <div class="ingredients">
+        Crushed Red Pepper Flakes, Jordanian Thyme, Oregano, Paprika, Garlic, Onion, Sugar, Red Bell Pepper, Black Pepper, Lemon Pepper, Tomato, Chili, Lemon Peel, Rosemary, Chives, Smoked Flavor
+      </div>
     </div>
   </div>
 
   <h2>Hot Sauces</h2>
 
   <div class="card">
-    <img src="https://via.placeholder.com/120" alt="Humungous Hog">
+    <img src="https://via.placeholder.com/120">
     <div>
       <h3>Humungous Hog</h3>
-      <a href="#">View Product</a>
-      <p>Extreme heat blend with Reaper, Scorpion, and Ghost Pepper.</p>
+      <div class="ingredients">
+        Carolina Reaper, Trinidad Moruga Scorpion, Ghost Pepper, Chile de Arbol, Thai Chili, Chicken Broth, Cilantro, Red Hot Pepper Powder, Saffron, Smoked Paprika, Buharat, Turmeric, Chili Powder, Tomato Paste, Vulcan's Fire Salt, Celtic Sea Salt, Sumac, Lemon Juice, Balsamic Vinegar, Apple Cider Vinegar
+      </div>
     </div>
   </div>
 
   <div class="card">
-    <img src="https://via.placeholder.com/120" alt="Ghoulish Garlic">
+    <img src="https://via.placeholder.com/120">
     <div>
       <h3>Ghoulish Garlic</h3>
-      <a href="#">View Product</a>
-      <p>Garlic-heavy citrus heat with habanero and herbs.</p>
+      <div class="ingredients">
+        Orange Habanero, Orange Bell Pepper, Garlic, Lime, Carrots, Cucumber, Thyme, White Pepper, Black Pepper, Mustard, Cumin, Tomato Paste, Pomegranate Molasses, Sea Salt, Spring Water, Apple Cider Vinegar
+      </div>
     </div>
   </div>
 
   <div class="card">
-    <img src="https://via.placeholder.com/120" alt="Cucumber Coolant">
+    <img src="https://via.placeholder.com/120">
     <div>
       <h3>Cucumber Coolant</h3>
-      <a href="#">View Product</a>
-      <p>Refreshing sweet heat with cucumber and citrus.</p>
+      <div class="ingredients">
+        Orange Habanero, Orange Bell Pepper, Lime, Carrots, Cucumber, Thyme, White Pepper, Black Pepper, Mustard, Cumin, Tomato Paste, Pomegranate Molasses, Date Molasses, Sea Salt, Spring Water, Apple Cider Vinegar
+      </div>
     </div>
   </div>
 
   <div class="card">
-    <img src="https://via.placeholder.com/120" alt="Gorilla's Giard">
+    <img src="https://via.placeholder.com/120">
     <div>
       <h3>Gorilla's Giard</h3>
-      <a href="#">View Product</a>
-      <p>Giardiniera-inspired bold vegetable heat.</p>
+      <div class="ingredients">
+        Giardiniera Peppers, Serrano, Red Bell Pepper, Tomato Paste, Juniper Berries, Mustard, Dill, Carrots, Onion, Parsley, Lemon Peel, Lime, Celery Seed, Chili, Paprika, Coriander, Fennel, Oregano, Black Pepper, Vinegar
+      </div>
     </div>
   </div>
 
   <div class="card">
-    <img src="https://via.placeholder.com/120" alt="Summertime Sunshine">
+    <img src="https://via.placeholder.com/120">
     <div>
       <h3>Summertime Sunshine</h3>
-      <a href="#">View Product</a>
-      <p>Tropical fruit explosion with mild serrano heat.</p>
+      <div class="ingredients">
+        Serrano, Green Bell Pepper, Pomegranate Molasses, Honeydew, Cantaloupe, Dragonfruit, Papaya, Peach, Dates, Plum, Pineapple, Lime, Celery, Kiwi, Apricot, Vinegar, Sea Salt, Cumin
+      </div>
     </div>
   </div>
 
   <div class="card">
-    <img src="https://via.placeholder.com/120" alt="Heated Honey">
+    <img src="https://via.placeholder.com/120">
     <div>
       <h3>Heated Honey</h3>
-      <a href="#">View Product</a>
-      <p>Sweet and spicy honey infusion with IPA notes.</p>
+      <div class="ingredients">
+        Habanero, Serrano, Sweet Pepper, IPA Beer, Manuka Honey, Minneola, Malt Vinegar, Red Wine Vinegar
+      </div>
     </div>
   </div>
 
   <div class="card">
-    <img src="https://via.placeholder.com/120" alt="Diabolical Distillery">
+    <img src="https://via.placeholder.com/120">
     <div>
       <h3>Diabolical Distillery</h3>
-      <a href="#">View Product</a>
-      <p>Dark, tangy heat with pickled and citrus flavors.</p>
+      <div class="ingredients">
+        Carolina Reaper, Chile de Arbol, Sweet Pepper, Pickled Cabbage Juice, Pomegranate Juice, Onion, Mandarin, Mustard, Paprika, Salt, Vinegar
+      </div>
     </div>
   </div>
 
   <div class="card">
-    <img src="https://via.placeholder.com/120" alt="Molten Magma">
+    <img src="https://via.placeholder.com/120">
     <div>
       <h3>Molten Magma</h3>
-      <a href="#">View Product</a>
-      <p>Classic lava-like heat with sweet undertones.</p>
+      <div class="ingredients">
+        Jamaican Pepper, Green Pepper, Guava Juice, Carrots, Paprika, Onion, Sugar, Sea Salt, Vinegar
+      </div>
     </div>
   </div>
 
   <div class="card">
-    <img src="https://via.placeholder.com/120" alt="Coco Cataclysm">
+    <img src="https://via.placeholder.com/120">
     <div>
       <h3>Coco Cataclysm</h3>
-      <a href="#">View Product</a>
-      <p>Tropical coconut chaos meets fiery peppers.</p>
+      <div class="ingredients">
+        Scorpion Pepper, Serrano, Tropical Juice Blend, Coconut Water, Melon, Tomato Paste, Onion, Pepper, Lime, Salt, Vinegar
+      </div>
     </div>
   </div>
 
   <div class="card">
-    <img src="https://via.placeholder.com/120" alt="Serrano Scientist">
+    <img src="https://via.placeholder.com/120">
     <div>
       <h3>Serrano Scientist</h3>
-      <a href="#">View Product</a>
-      <p>A complex experimental blend of peppers and fruits.</p>
+      <div class="ingredients">
+        Scorpion, Scotch Bonnet, Jalapeno, Serrano, Thai Chili, Fruit Juices, Pickle Juice, Onion, Dates, Garlic, Carrots, Cilantro, Paprika, Vinegar
+      </div>
     </div>
   </div>
 
   <div class="card">
-    <img src="https://via.placeholder.com/120" alt="Volcanic Vulture">
+    <img src="https://via.placeholder.com/120">
     <div>
       <h3>Volcanic Vulture</h3>
-      <a href="#">View Product</a>
-      <p>Earthy, savory heat with herbs and broth base.</p>
+      <div class="ingredients">
+        Cayenne, Chili Pepper, Serrano, Onion, Garlic, Tomato Paste, Chicken Broth, Mushrooms, Lemon, Herbs, Vinegar
+      </div>
     </div>
   </div>
 
   <div class="card">
-    <img src="https://via.placeholder.com/120" alt="Naga Nectarine">
+    <img src="https://via.placeholder.com/120">
     <div>
       <h3>Naga Nectarine</h3>
-      <a href="#">View Product</a>
-      <p>Fruity nectar sweetness with brutal heat.</p>
+      <div class="ingredients">
+        Carolina Reaper, Scorpion, Ghost Pepper, Jamaican Pepper, Mango, Nectarine, Lemon, Onion, Ginger, Salt, Vinegar
+      </div>
     </div>
   </div>
 
   <div class="card">
-    <img src="https://via.placeholder.com/120" alt="Molten Material">
+    <img src="https://via.placeholder.com/120">
     <div>
       <h3>Molten Material</h3>
-      <a href="#">View Product</a>
-      <p>Rich, smooth habanero blend with depth.</p>
+      <div class="ingredients">
+        Orange Habanero, Sweet Pepper, Onion, Carrots, Pomegranate Molasses, Sugar, Paprika, Salt, Vinegar
+      </div>
     </div>
   </div>
 
@@ -205,4 +225,3 @@
 
 </body>
 </html>
-
