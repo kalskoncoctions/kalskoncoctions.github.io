@@ -24,7 +24,6 @@
     }
     h2 {
       border-bottom: 2px solid #ff6600;
-      padding-bottom: 5px;
     }
     .card {
       background: #1c1c1c;
@@ -35,193 +34,144 @@
       gap: 15px;
       align-items: flex-start;
     }
-    .card img {
+    img {
       width: 120px;
       height: 120px;
       border-radius: 10px;
       object-fit: cover;
-      background: #333;
-    }
-    .card a {
-      color: #ff9900;
-      text-decoration: none;
-      font-weight: bold;
-    }
-    .card a:hover {
-      text-decoration: underline;
     }
     .ingredients {
       font-size: 0.85em;
       color: #ccc;
       margin-top: 8px;
-      line-height: 1.4em;
-    }
-    footer {
-      text-align: center;
-      padding: 20px;
-      background: #000;
-      margin-top: 30px;
-      font-size: 0.9em;
     }
   </style>
 </head>
 <body>
 
-<header>
-  🔥 Inferno Catalog 🌶️
-</header>
+<header>🔥 Inferno Catalog 🌶️</header>
 
 <div class="container">
 
-  <h2>Dry Rub</h2>
+<h2>Dry Rub</h2>
 
-  <div class="card">
-    <img src="https://via.placeholder.com/120" alt="Pepper Potpurri">
-    <div>
-      <h3>Pepper Potpurri</h3>
-      <div class="ingredients">
-        Crushed Red Pepper Flakes, Jordanian Thyme, Oregano, Paprika, Garlic, Onion, Sugar, Red Bell Pepper, Black Pepper, Lemon Pepper, Tomato, Chili, Lemon Peel, Rosemary, Chives, Smoked Flavor
-      </div>
+<div class="card">
+  <img src="https://image.pollinations.ai/prompt/colorful%20spice%20blend%20in%20wooden%20bowl%20food%20photography">
+  <div>
+    <h3>Pepper Potpurri</h3>
+    <div class="ingredients">
+      Crushed Red Pepper Flakes, Jordanian Thyme, Oregano, Paprika, Garlic, Onion, Sugar, Red Bell Pepper...
     </div>
   </div>
-
-  <h2>Hot Sauces</h2>
-
-  <div class="card">
-    <img src="https://via.placeholder.com/120">
-    <div>
-      <h3>Humungous Hog</h3>
-      <div class="ingredients">
-        Carolina Reaper, Trinidad Moruga Scorpion, Ghost Pepper, Chile de Arbol, Thai Chili, Chicken Broth, Cilantro, Red Hot Pepper Powder, Saffron, Smoked Paprika, Buharat, Turmeric, Chili Powder, Tomato Paste, Vulcan's Fire Salt, Celtic Sea Salt, Sumac, Lemon Juice, Balsamic Vinegar, Apple Cider Vinegar
-      </div>
-    </div>
-  </div>
-
-  <div class="card">
-    <img src="https://via.placeholder.com/120">
-    <div>
-      <h3>Ghoulish Garlic</h3>
-      <div class="ingredients">
-        Orange Habanero, Orange Bell Pepper, Garlic, Lime, Carrots, Cucumber, Thyme, White Pepper, Black Pepper, Mustard, Cumin, Tomato Paste, Pomegranate Molasses, Sea Salt, Spring Water, Apple Cider Vinegar
-      </div>
-    </div>
-  </div>
-
-  <div class="card">
-    <img src="https://via.placeholder.com/120">
-    <div>
-      <h3>Cucumber Coolant</h3>
-      <div class="ingredients">
-        Orange Habanero, Orange Bell Pepper, Lime, Carrots, Cucumber, Thyme, White Pepper, Black Pepper, Mustard, Cumin, Tomato Paste, Pomegranate Molasses, Date Molasses, Sea Salt, Spring Water, Apple Cider Vinegar
-      </div>
-    </div>
-  </div>
-
-  <div class="card">
-    <img src="https://via.placeholder.com/120">
-    <div>
-      <h3>Gorilla's Giard</h3>
-      <div class="ingredients">
-        Giardiniera Peppers, Serrano, Red Bell Pepper, Tomato Paste, Juniper Berries, Mustard, Dill, Carrots, Onion, Parsley, Lemon Peel, Lime, Celery Seed, Chili, Paprika, Coriander, Fennel, Oregano, Black Pepper, Vinegar
-      </div>
-    </div>
-  </div>
-
-  <div class="card">
-    <img src="https://via.placeholder.com/120">
-    <div>
-      <h3>Summertime Sunshine</h3>
-      <div class="ingredients">
-        Serrano, Green Bell Pepper, Pomegranate Molasses, Honeydew, Cantaloupe, Dragonfruit, Papaya, Peach, Dates, Plum, Pineapple, Lime, Celery, Kiwi, Apricot, Vinegar, Sea Salt, Cumin
-      </div>
-    </div>
-  </div>
-
-  <div class="card">
-    <img src="https://via.placeholder.com/120">
-    <div>
-      <h3>Heated Honey</h3>
-      <div class="ingredients">
-        Habanero, Serrano, Sweet Pepper, IPA Beer, Manuka Honey, Minneola, Malt Vinegar, Red Wine Vinegar
-      </div>
-    </div>
-  </div>
-
-  <div class="card">
-    <img src="https://via.placeholder.com/120">
-    <div>
-      <h3>Diabolical Distillery</h3>
-      <div class="ingredients">
-        Carolina Reaper, Chile de Arbol, Sweet Pepper, Pickled Cabbage Juice, Pomegranate Juice, Onion, Mandarin, Mustard, Paprika, Salt, Vinegar
-      </div>
-    </div>
-  </div>
-
-  <div class="card">
-    <img src="https://via.placeholder.com/120">
-    <div>
-      <h3>Molten Magma</h3>
-      <div class="ingredients">
-        Jamaican Pepper, Green Pepper, Guava Juice, Carrots, Paprika, Onion, Sugar, Sea Salt, Vinegar
-      </div>
-    </div>
-  </div>
-
-  <div class="card">
-    <img src="https://via.placeholder.com/120">
-    <div>
-      <h3>Coco Cataclysm</h3>
-      <div class="ingredients">
-        Scorpion Pepper, Serrano, Tropical Juice Blend, Coconut Water, Melon, Tomato Paste, Onion, Pepper, Lime, Salt, Vinegar
-      </div>
-    </div>
-  </div>
-
-  <div class="card">
-    <img src="https://via.placeholder.com/120">
-    <div>
-      <h3>Serrano Scientist</h3>
-      <div class="ingredients">
-        Scorpion, Scotch Bonnet, Jalapeno, Serrano, Thai Chili, Fruit Juices, Pickle Juice, Onion, Dates, Garlic, Carrots, Cilantro, Paprika, Vinegar
-      </div>
-    </div>
-  </div>
-
-  <div class="card">
-    <img src="https://via.placeholder.com/120">
-    <div>
-      <h3>Volcanic Vulture</h3>
-      <div class="ingredients">
-        Cayenne, Chili Pepper, Serrano, Onion, Garlic, Tomato Paste, Chicken Broth, Mushrooms, Lemon, Herbs, Vinegar
-      </div>
-    </div>
-  </div>
-
-  <div class="card">
-    <img src="https://via.placeholder.com/120">
-    <div>
-      <h3>Naga Nectarine</h3>
-      <div class="ingredients">
-        Carolina Reaper, Scorpion, Ghost Pepper, Jamaican Pepper, Mango, Nectarine, Lemon, Onion, Ginger, Salt, Vinegar
-      </div>
-    </div>
-  </div>
-
-  <div class="card">
-    <img src="https://via.placeholder.com/120">
-    <div>
-      <h3>Molten Material</h3>
-      <div class="ingredients">
-        Orange Habanero, Sweet Pepper, Onion, Carrots, Pomegranate Molasses, Sugar, Paprika, Salt, Vinegar
-      </div>
-    </div>
-  </div>
-
 </div>
 
-<footer>
-  🔥 “Cataloging Heat. Bottling Fire.” 🔥
-</footer>
+<h2>Hot Sauces</h2>
+
+<div class="card">
+  <img src="https://image.pollinations.ai/prompt/fiery%20boar%20surrounded%20by%20flames%20dark%20fantasy%20art">
+  <div>
+    <h3>Humungous Hog</h3>
+    <div class="ingredients">Carolina Reaper, Scorpion, Ghost Pepper...</div>
+  </div>
+</div>
+
+<div class="card">
+  <img src="https://image.pollinations.ai/prompt/spooky%20garlic%20with%20glowing%20eyes%20orange%20mist">
+  <div>
+    <h3>Ghoulish Garlic</h3>
+    <div class="ingredients">Habanero, Garlic, Lime...</div>
+  </div>
+</div>
+
+<div class="card">
+  <img src="https://image.pollinations.ai/prompt/cucumber%20ice%20splash%20cool%20green%20liquid%20refreshing">
+  <div>
+    <h3>Cucumber Coolant</h3>
+    <div class="ingredients">Habanero, Cucumber, Lime...</div>
+  </div>
+</div>
+
+<div class="card">
+  <img src="https://image.pollinations.ai/prompt/gorilla%20holding%20vegetables%20powerful%20illustration">
+  <div>
+    <h3>Gorilla's Giard</h3>
+    <div class="ingredients">Giardiniera, Serrano...</div>
+  </div>
+</div>
+
+<div class="card">
+  <img src="https://image.pollinations.ai/prompt/tropical%20fruit%20explosion%20sunlight%20vibrant">
+  <div>
+    <h3>Summertime Sunshine</h3>
+    <div class="ingredients">Fruits, Serrano...</div>
+  </div>
+</div>
+
+<div class="card">
+  <img src="https://image.pollinations.ai/prompt/honey%20dripping%20over%20chili%20peppers%20golden%20light">
+  <div>
+    <h3>Heated Honey</h3>
+    <div class="ingredients">Honey, Habanero...</div>
+  </div>
+</div>
+
+<div class="card">
+  <img src="https://image.pollinations.ai/prompt/dark%20alchemy%20lab%20glowing%20red%20potion">
+  <div>
+    <h3>Diabolical Distillery</h3>
+    <div class="ingredients">Reaper, Mustard...</div>
+  </div>
+</div>
+
+<div class="card">
+  <img src="https://image.pollinations.ai/prompt/lava%20flowing%20volcano%20cinematic%20fire">
+  <div>
+    <h3>Molten Magma</h3>
+    <div class="ingredients">Jamaican Pepper...</div>
+  </div>
+</div>
+
+<div class="card">
+  <img src="https://image.pollinations.ai/prompt/coconut%20explosion%20tropical%20fire%20energy">
+  <div>
+    <h3>Coco Cataclysm</h3>
+    <div class="ingredients">Coconut, Scorpion...</div>
+  </div>
+</div>
+
+<div class="card">
+  <img src="https://image.pollinations.ai/prompt/mad%20scientist%20green%20potion%20lab%20glow">
+  <div>
+    <h3>Serrano Scientist</h3>
+    <div class="ingredients">Mixed peppers...</div>
+  </div>
+</div>
+
+<div class="card">
+  <img src="https://image.pollinations.ai/prompt/vulture%20flying%20over%20volcano%20dark%20scene">
+  <div>
+    <h3>Volcanic Vulture</h3>
+    <div class="ingredients">Cayenne, herbs...</div>
+  </div>
+</div>
+
+<div class="card">
+  <img src="https://image.pollinations.ai/prompt/glowing%20nectarine%20fire%20fantasy">
+  <div>
+    <h3>Naga Nectarine</h3>
+    <div class="ingredients">Reaper, Nectarine...</div>
+  </div>
+</div>
+
+<div class="card">
+  <img src="https://image.pollinations.ai/prompt/molten%20metal%20pouring%20forge%20fire">
+  <div>
+    <h3>Molten Material</h3>
+    <div class="ingredients">Habanero blend...</div>
+  </div>
+</div>
+
+</div>
 
 </body>
 </html>
